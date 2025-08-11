@@ -13,7 +13,7 @@ namespace SpyTraitorPlugin.Roles
         public override int MaxHealth { get; set; } = 150;
         public override string Name { get; set; } = "NTF Traitor";
         public override string Description { get; set; } = "You are a Chaos Insurgency agent infiltrating the Foundation's Mobile Task Force. Your mission is to sabotage Foundation operations and assist Chaos forces.";
-        public override string CustomInfo { get; set; } = "Ntf Private";
+        public override string CustomInfo { get; set; }
 
         public override RoleTypeId Role { get; set; } = RoleTypeId.NtfPrivate;
         public override float SpawnChance { get; set; } = 15f;
